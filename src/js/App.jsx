@@ -9,7 +9,9 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
 const App = () => {
-  return (
+  const isOnline = false;
+
+  return isOnline ? (
     <div className="App">
       <Header />
       <Landing />
@@ -17,6 +19,10 @@ const App = () => {
       <About />
       <Contact />
       <Footer />
+    </div>
+  ) : (
+    <div className="under_construction">
+      <div className="message">Site Under Construction</div>
     </div>
   );
 };

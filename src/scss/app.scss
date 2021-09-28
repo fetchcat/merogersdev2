@@ -81,6 +81,20 @@
   justify-content: space-between;
 }
 
+.under_construction {
+  width: 100%;
+  height: 100vh;
+  @include flex-center;
+  background-color: $dark-color;
+  color: $light-color;
+  font-size: 1.2em;
+}
+
+.message {
+  padding: 1em;
+  background-color: $medium-color;
+}
+
 .active {
   color: $grey-dark;
 }

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-scroll";
 
 import HeroImage from "../../../assets/images/undraw_web_development.png";
-import Resume from "../../../assets/docs/mer.itresume.june.2020.pdf";
+import Resume from "../../../assets/docs/mer.itresume.mar.2020.web.pdf";
 
 const Showcase = ({ header, tagline, paragraph1, paragraph2 }) => {
   return (

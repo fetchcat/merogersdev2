@@ -6,10 +6,11 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0",
-    "react-scroll": "^1.7.16"
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "^4.0.3",
+    "react-scroll": "^1.8.4"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,16 +35,20 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.0.1",
+    "@babel/core": "^7.15.5",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb": "^18.2.1",
     "eslint-config-babel": "^9.0.0",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-flowtype": "^4.6.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-prettier": "^3.1.2",
-    "eslint-plugin-react": "^7.19.0",
-    "node-sass": "^4.14.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-flowtype": "^5.10.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-react": "^7.26.0",
+    "glob-parent": "^5.1.2",
+    "node-sass": "^6.0.1",
     "prettier": "^1.19.1",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^8.0.2",
+    "typescript": "^4.4.3"
   }
 }
